@@ -15,7 +15,7 @@
 		C9118D561EEFDE0C003DE67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9118D541EEFDE0C003DE67C /* LaunchScreen.storyboard */; };
 		C9118D611EEFDE0C003DE67C /* JCTestCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9118D601EEFDE0C003DE67C /* JCTestCountTests.m */; };
 		C9118D6C1EEFDE0C003DE67C /* JCTestCountUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9118D6B1EEFDE0C003DE67C /* JCTestCountUITests.m */; };
-		C9118D7B1EEFDE88003DE67C /* JCTestCount.m in Sources */ = {isa = PBXBuildFile; fileRef = C9118D7A1EEFDE88003DE67C /* JCTestCount.m */; };
+		C9118D821EEFE31A003DE67C /* JCTestCount.m in Sources */ = {isa = PBXBuildFile; fileRef = C9118D811EEFE31A003DE67C /* JCTestCount.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		C9118D671EEFDE0C003DE67C /* JCTestCountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCTestCountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9118D6B1EEFDE0C003DE67C /* JCTestCountUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTestCountUITests.m; sourceTree = "<group>"; };
 		C9118D6D1EEFDE0C003DE67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9118D791EEFDE88003DE67C /* JCTestCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTestCount.h; sourceTree = "<group>"; };
-		C9118D7A1EEFDE88003DE67C /* JCTestCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTestCount.m; sourceTree = "<group>"; };
+		C9118D801EEFE31A003DE67C /* JCTestCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCTestCount.h; path = JCTestVendor/JCTestCount.h; sourceTree = SOURCE_ROOT; };
+		C9118D811EEFE31A003DE67C /* JCTestCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCTestCount.m; path = JCTestVendor/JCTestCount.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				C9118D4A1EEFDE0C003DE67C /* AppDelegate.m */,
 				C9118D4C1EEFDE0C003DE67C /* ViewController.h */,
 				C9118D4D1EEFDE0C003DE67C /* ViewController.m */,
-				C9118D791EEFDE88003DE67C /* JCTestCount.h */,
-				C9118D7A1EEFDE88003DE67C /* JCTestCount.m */,
+				C9118D801EEFE31A003DE67C /* JCTestCount.h */,
+				C9118D811EEFE31A003DE67C /* JCTestCount.m */,
 				C9118D4F1EEFDE0C003DE67C /* Main.storyboard */,
 				C9118D521EEFDE0C003DE67C /* Assets.xcassets */,
 				C9118D541EEFDE0C003DE67C /* LaunchScreen.storyboard */,
@@ -283,7 +283,7 @@
 			files = (
 				C9118D4E1EEFDE0C003DE67C /* ViewController.m in Sources */,
 				C9118D4B1EEFDE0C003DE67C /* AppDelegate.m in Sources */,
-				C9118D7B1EEFDE88003DE67C /* JCTestCount.m in Sources */,
+				C9118D821EEFE31A003DE67C /* JCTestCount.m in Sources */,
 				C9118D481EEFDE0C003DE67C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
